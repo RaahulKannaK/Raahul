@@ -8,9 +8,9 @@ def guess():
     image1 = Image.open(r'C:\Users\raahu\Downloads\guess.png')
     c1,c2 = ra.columns(2)
     with c1:
-        ra.image(image, caption="Left Aligned Image", width=350)
+        ra.image(image, caption="Range of 1 to 100", width=350)
     with c2:
-        ra.image(image1, caption="Right Aligned Image",  width=350)
+        ra.image(image1, caption="User Guessing",  width=350)
 
     ra.header("Guessing Game by Computer")
     ra.write("The Computer Guess",g)
